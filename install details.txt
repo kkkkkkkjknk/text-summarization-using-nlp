@@ -1,0 +1,5 @@
+python -m spacy download en_core_web_sm   
+pip install pydantic==1.10.13
+
+
+streamlit run app.py
