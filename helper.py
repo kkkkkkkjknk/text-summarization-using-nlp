@@ -12,8 +12,13 @@ import streamlit as st
 import random
 import spacy
 
-nlp= spacy.load("en_core_web_sm")
-#nlp= spacy.load("en_core_web_sm")
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    from spacy.cli import download
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
+
 stopwords = list(STOP_WORDS)
 punctuation = punctuation + "\n"
 
