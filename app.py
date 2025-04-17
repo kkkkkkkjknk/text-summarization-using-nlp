@@ -1,5 +1,10 @@
 import streamlit as st
 from helper import get_summary, spacy_rander, fetch_news, fetch_news_links
+import sys
+import streamlit as st
+
+st.write(f"Running Python {sys.version}")
+
 
 
 
