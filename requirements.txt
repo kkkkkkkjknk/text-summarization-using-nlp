@@ -1,10 +1,9 @@
-streamlit
-spacy==3.7.2
-thinc==8.2.1
-numpy>=1.22.0
-spacy-streamlit
+streamlit==1.25.0
+spacy==3.5.3
+thinc==8.1.10
+numpy==1.23.5
 beautifulsoup4
 requests
-
-# SpaCy model wheel file
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+newsapi-python
+spacy-streamlit
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
